@@ -49,7 +49,7 @@ li {
 
 .creative-section {
   background-color: gray;
-  background: url(../images/slider2.jpg) no-repeat;
+  background: url(../images/slider2.jpg) no-repeat center/cover;
   padding-top: 360px;
   padding-bottom: 240px;
   text-align: center;
@@ -159,22 +159,27 @@ a {
   /* background: red; */
   width: 80%;
   text-transform: uppercase;
-  color: #fff;
+  background: #fff;
 }
-.progress interface{
-  color:#9b5ca5 ;
+.progress.interface{
+  background:#9b5ca5 ;
+  width: 70%;
 }
-.progress design{
-  color:#11afdd ;
+.progress.design{
+  background:#11afdd ;
+   width: 80%;
 }
-.progress wordpress{
-  color:#d57f7f ;
+.progress.wordpress{
+  background:#d57f7f ;
+   width: 65%;
 }
-.progress html-css{ 
-  color:#1fbb9d ;
+.progress.html-css{ 
+  background:#1fbb9d ;
+   width: 95%;
 }
-.progress app-design{
-  color:#bb8935 ;
+.progress.app-design{
+  background:#bb8935 ;
+   width: 90%;
 }
 /* section-our-services */
 .our-serviecs {
