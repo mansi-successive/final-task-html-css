@@ -1,0 +1,270 @@
+/* Header */
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  padding: 15px 0;
+}
+.navbar a {
+  color: white;
+  padding: 41px 0;
+  display: inline-block;
+}
+.navbar a:hover {
+  color: #17cfab;
+}
+.header {
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  width: 100%;
+}
+.navbar {
+  margin-left: auto;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+  padding: 0 10px;
+}
+.content {
+  margin-bottom: 147px;
+}
+.content p {
+  color: #d4d4d4;
+}
+.button-secone {
+  display: flex;
+  margin-top: 123px;
+  margin-left: 408px;
+  height: 65px;
+}
+
+.creative-section {
+  background-color: gray;
+  background: url(../images/slider2.jpg) no-repeat;
+  padding-top: 360px;
+  padding-bottom: 240px;
+  text-align: center;
+  width: 100%;
+}
+.strong-text {
+  font-size: 36px;
+  color: #ffffff;
+}
+span {
+  color: #17cfab;
+}
+
+.inner-sec-two {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.img-two {
+  width: 25%;
+  text-align: center;
+  background-color: #1b2933;
+  border-top: 4px solid #17cfab;
+  padding: 87px 15px 115px;
+}
+.img-two:nth-child(even) {
+  background-color: #17cfab;
+  border-top: 4px solid white;
+}
+.img-two p {
+  color: #17cfab;
+}
+.img-two:nth-child(even) p {
+  color: white;
+}
+.img-content {
+  margin-top: 38px;
+}
+
+.inner-secthree {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.content-secthree {
+  width: 33.33%;
+}
+.heading-three {
+  text-align: center;
+  margin-top: 98px;
+  margin-bottom: 115px;
+}
+.content-secthree {
+  width: 33.33%;
+  margin-bottom: 80px;
+  padding: 0 37px;
+}
+.content-secthree:hover h3 {
+  color: #17cfab;
+}
+.icon {
+  background-color: #17cfab;
+  height: 13px;
+  width: 15px;
+  display: inline-block;
+  margin-right: 9px;
+}
+/* section */
+.about-our-cmpny {
+  background-color: rgb(46, 44, 44);
+  padding: 80px 0;
+}
+.content-four {
+  width: 50%;
+  margin-left: auto;
+}
+.inner-sec-four {
+  display: flex;
+}
+.heading-four {
+  color: #d4d4d4;
+}
+
+.heading-five {
+  color: white;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 65px;
+}
+
+.ul-four {
+  display: flex;
+  margin-bottom: 40px;
+}
+.ul-four li {
+  color: white;
+}
+a {
+  color: white;
+}
+.progress-bar {
+  border: 1px solid #ddd3;
+  margin-bottom: 15px;
+}
+.progress {
+  padding: 10px 15px;
+  /* background: red; */
+  width: 80%;
+  text-transform: uppercase;
+  color: #fff;
+}
+.progress interface{
+  color:#9b5ca5 ;
+}
+.progress design{
+  color:#11afdd ;
+}
+.progress wordpress{
+  color:#d57f7f ;
+}
+.progress html-css{ 
+  color:#1fbb9d ;
+}
+.progress app-design{
+  color:#bb8935 ;
+}
+/* section-our-services */
+.our-serviecs {
+  background-color: #ffffff;
+}
+.heading-secsix {
+  text-align: center;
+  padding-top: 97px;
+  padding-bottom: 105px;
+}
+.nav-sec-six a {
+  color: black;
+}
+.nav-sec-six {
+  padding-bottom: 25px;
+}
+
+.ul-five {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid rgb(200 197 197 / 31%);
+  border-top: 2px solid rgb(200 197 197 / 31%);
+}
+.li-five {
+  border-right: 2px solid rgb(200 197 197 / 31%);
+
+  padding: 10px 44px;
+}
+
+.li-five:first-child {
+  border-left: 2px solid rgb(200 197 197 / 31%);
+}
+
+.inner-sec-six {
+  display: flex;
+  margin-bottom: 107px;
+}
+.img-service {
+  width: 23%;
+  margin-right: 24px;
+}
+.img-six {
+  width: 100%;
+}
+.sec-six {
+  width: 75%;
+}
+/* section-seven */
+
+.sec-seven {
+  background: url(../images/slider1.jpg) no-repeat;
+  width: 100%;
+}
+section.sec-seven {
+  position: relative;
+}
+.heading-seven {
+  margin-bottom: 21px;
+  font-size: 40px;
+  line-height: 40px;
+  color: #18cfab;
+  font-weight: 700;
+}
+
+.container-seven {
+  text-align: center;
+  padding: 100px 0;
+}
+.para-seven p {
+  color: white;
+  text-align: center;
+  margin-bottom: 71px;
+}
+
+button {
+  border: none;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: gray;
+  margin-top: 100px;
+  text-align: center;
+}
+.footer-para p {
+  text-align: center;
+  color: white;
+  padding: 41px;
+}
+.ham {
+  color: rgb(71, 200, 190);
+}
