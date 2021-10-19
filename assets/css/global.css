@@ -18,25 +18,26 @@ h1 {
   font-size: 79px;
   color: #ffffff;
   font-weight: 700;
-} 
+}
 h2 {
   font-size: 36px;
   color: #4e4e4e;
   position: relative;
-  padding-bottom: 10px;
-  display: inline-block;
+  padding-bottom: 30px;
+  text-align: center;
+  margin-bottom: 70px;
 }
 
 h2::after {
-     content: "";
-    position: absolute;
-    background: url(../images/header-line.png) no-repeat;
-    width: 100px;
-    left: 0;
-    height: 5px;
-    bottom: 0;
-    right: 0;
-    margin: 0 auto;
+  content: "";
+  position: absolute;
+  background: url(../images/header-line.png) no-repeat;
+  width: 100px;
+  left: 0;
+  height: 5px;
+  bottom: 0;
+  right: 0;
+  margin: 0 auto;
 }
 
 h3 {
@@ -76,5 +77,13 @@ button {
 .blue-btn {
   background-color: #00cbf5;
   border-top: 2px solid white;
-  border-radius: 3px;
+  border-radius: 4px;
+  margin-left: 20px;
+}
+section.sec-repeat {
+  margin-bottom: 80px;
+}
+
+.d-block {
+  display: block;
 }
