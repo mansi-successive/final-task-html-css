@@ -11,10 +11,28 @@
   color: white;
   padding: 41px 0;
   display: inline-block;
+  
 }
-.navbar a:hover {
+
+.active, nav ul li a:active {
+    color: #1ccba0;
+    border-bottom: 2px solid #1ccba0;
+    font-weight: bold;
+}
+
+.search-icon{
+
+}
+.navbar a:hover,
+.navbar a.active {
   color: #17cfab;
+  border-bottom: 2px solid #1ccba0;
 }
+
+.navbar a:hover:before {
+  opacity: 1;
+}
+
 .header {
   background: rgba(0, 0, 0, 0.5);
   position: fixed;
@@ -52,7 +70,7 @@ li {
 .creative-section {
   background-color: gray;
   background: url(../images/slider2.jpg) no-repeat center/cover;
-  padding-top: 360px;
+  padding-top: 330px;
   padding-bottom: 240px;
   text-align: center;
   width: 100%;
@@ -339,7 +357,38 @@ button {
 .btn-eight{
   margin-top: 40px;
 }
+/* map-section */
+.map{
+  display: flex;
+}
+.form{
+  width: 20%;
+    /* background: #ccc; */
+    /* border: 1px solid; */
+    max-width: 380px;
+    margin-left: 31px;
 
+}
+.map-img{
+  width: 50%;
+}
+iframe {
+    width: 100%;
+}
+.input-type {
+    border: 3px solid #f3f7f6;
+    padding: 20px;
+    padding-left: 15px;
+    width: 100%;
+}
+#submit{
+  width: 100%;
+  border: none;
+  padding: 15px;
+}
+.map h2{
+text-align: start;
+}
 footer {
   width: 100%;
   height: 100px;
