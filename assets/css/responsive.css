@@ -1,0 +1,96 @@
+@media screen and (max-width: 768px) {
+  .logo {
+    padding: 31px 0;
+    padding-right: 14px;
+  }
+  /* .header{
+    width:765px;
+  } */
+  .inner-sec-two {
+    flex-wrap: wrap;
+  }
+  .img-two {
+    width: 50%;
+  }
+  .content-secthree {
+    width: 50%;
+    margin-bottom: 80px;
+    padding: 0 37px;
+    flex-wrap: wrap;
+  }
+  .content-four {
+    width: 37%;
+    margin-left: 43px;
+  }
+  .img-four {
+    position: relative;
+    width: 50%;
+    bottom: -350px;
+  }
+  /* .inner-sec-six {
+    display: block;
+  } */
+ .sec-six {
+    width: 75%;
+    line-height: 1.5;
+}
+  .img-service {
+    width: 100%;
+  }
+  .sec-six {
+    width: 100%;
+  }
+  .img-eight {
+    position: relative;
+    width: 60%;
+    bottom: -134px;
+    right: 3px;
+  }
+  .form {
+    width: 34%;
+  }
+  .input-type {
+    padding: 9px;
+    padding-left: 14px;
+  }
+  .people-say p {
+    width: auto;
+  }
+  .gp-ppl-image {
+    height: auto;
+  }
+  .gp-peop-part {
+    margin-left: auto;
+  }
+  .creative-section h1 {
+    font-size: 62px;
+  }
+  .strong-text {
+    font-size: 28px;
+  }
+
+  .content p {
+    font-size: 26px;
+  }
+  .creative-section {
+    padding-top: 248px;
+    padding-bottom: 135px;
+  }
+  .section-eight h2 {
+    font-size: 33px;
+
+    padding-bottom: 17px;
+  }
+  .section-eight h3 {
+    font-size: 26px;
+  }
+  .people-say h2 {
+    font-size: 33px;
+  }
+  .work li {
+    padding: 7px;
+  }
+  .heading-seven {
+    font-size: 24px;
+  }
+}
