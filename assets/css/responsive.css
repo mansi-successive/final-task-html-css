@@ -1,6 +1,6 @@
 @media screen and (max-width: 768px) {
   .logo {
-    padding: 31px 0;
+    padding: 42px 0;
     padding-right: 14px;
   }
   /* .header{
@@ -93,4 +93,56 @@
   .heading-seven {
     font-size: 24px;
   }
+}
+@media screen and (max-width: 992px){
+  .img-four {
+   
+    bottom: -386px;
+  }
+    .content-four {
+    width: 36%;
+    margin-left: 30px;
+}
+.img-eight {
+    position: relative;
+    width: 56%;
+    bottom: -57px;
+    right: -3px;
+}
+.gp-peop-part {
+    margin-left: 47px;
+  }
+
+.people-say p {
+    font-size: 14px;
+   
+    margin: 43px 0;
+    text-align: center;
+   
+    line-height: 1.5;
+  }
+
+  .heading-seven {
+    margin-bottom: 21px;
+    font-size: 32px;
+  }
+  .section-eight h2
+   {
+    font-size: 40px;
+  }
+
+  .section-eight h3 {
+    color: #17cfab;
+    font-size: 34px;
+  }
+    .btn-eight {
+    margin-top: 20px;
+    padding: 17px 32px;
+}
+.input-type {
+  
+    padding: 19px;
+  }
+  .form {
+    width: 30%;}
 }

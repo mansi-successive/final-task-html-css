@@ -396,7 +396,7 @@ iframe {
   color: #bbbbbb;
   margin: 43px 0;
   text-align: center;
-  width: 1066px;
+  /* width: 1066px; */
 }
 .people-say h3 {
   color: #18cfab;
