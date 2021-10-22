@@ -269,5 +269,17 @@ element.style {
   section-six h2{
     margin: 12px 0;
   }
+  .work ul {
+    margin: 1px 1px;
+  }
+  .work li {
+    padding: 4px;
+    font-size: 11px;
+    /* margin-bottom: 12px; */
+}
+.btn-work {
+    
+    margin-left: 34%;
+}
 
 }
