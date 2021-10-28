@@ -1,11 +1,8 @@
 @media screen and (max-width: 768px) {
   .logo {
-    padding: 42px 0;
     padding-right: 14px;
   }
-  /* .header{
-    width:765px;
-  } */
+
   .inner-sec-two {
     flex-wrap: wrap;
   }
@@ -27,9 +24,7 @@
     width: 50%;
     bottom: -350px;
   }
-  /* .inner-sec-six {
-    display: block;
-  } */
+
   .sec-six {
     width: 75%;
     line-height: 1.5;
@@ -149,12 +144,10 @@
   }
 }
 @media screen and (max-width: 375px) {
-  .navbar {
+  /* .navbar {
     display: none;
-  }
-  .logo {
-    padding-left: 91px;
-  }
+  } */
+
   .strong-text {
     font-size: 18px;
   }
@@ -177,8 +170,8 @@
     display: block;
   }
   .content-four {
-    width: 100%;
-    margin-left: 2px;
+    width: 84%;
+    margin-left: 10px;
   }
   .img-four {
     display: none;
@@ -186,6 +179,10 @@
   .heading-four {
     color: #d4d4d4;
     font-size: 29px;
+  }
+  .ul-four li {
+    font-size: 11px;
+    font-weight: 700;
   }
   .inner-sec-six {
     display: block;
@@ -198,10 +195,6 @@
     margin-bottom: 41px;
     font-size: 12px;
   }
-
-  element.style {
-  }
-
   .section-eight h2 {
     font-size: 16px;
   }
@@ -271,7 +264,6 @@
   .work li {
     padding: 4px;
     font-size: 11px;
-    /* margin-bottom: 12px; */
   }
   .btn-work {
     margin-left: 34%;
@@ -279,5 +271,64 @@
 
   .table-column {
     width: 100%;
+  }
+
+  .sec-six {
+    width: 95%;
+    margin-left: 12px;
+  }
+  section.sec-repeat {
+    margin-bottom: 50px;
+  }
+  .heading-four {
+    font-size: 26px;
+    padding-left: 24px;
+  }
+  .navigation {
+    display: block;
+  }
+  .navbar {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.9);
+    top: 103px;
+    width: 100%;
+    left: -100%;
+    transition: all linear 0.3s;
+  }
+  .navbar.open {
+    left: 0;
+  }
+  .navbar a {
+    color: #121111;
+    padding: 7px 0;
+  }
+  .navigation li {
+    padding: 4px 10px;
+    border-bottom: 2px solid white;
+    font-weight: 700;
+  }
+  .hambuger {
+    display: block;
+  }
+  .hambuger.open span {
+    border: 0;
+  }
+  .hambuger.open a span::before {
+    top: -2px;
+    transform: rotate(45deg);
+  }
+  .hambuger.open a span::after {
+    top: -3px;
+    transform: rotate(-45deg);
+  }
+  .hambuger .navbar a:hover,
+  .navbar a.active {
+    border-bottom: hidden;
+  }
+  .search-icon {
+    font-size: 25px;
+  }
+  .searchbar {
+    margin-left: 49px;
   }
 }
